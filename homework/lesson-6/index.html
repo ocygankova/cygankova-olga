@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        textarea {
+            resize: none;
+        }
+    </style>
+    <title>Зоопарк</title>
+</head>
+
+<body>
+    <h1>Форма заявки на работу в зоопарке</h1>
+    <p><i>Пожалуйста, заполните форму. Обязательные поля помечены <span style="color:red;">*</span></i></p>
+    <form action="" method="GET" name="send-form">
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <div>
+                <label for="name">Имя<span style="color:red;">*</span></label>
+                <input required type="text" id="name" name="Name" placeholder="Ваше Имя">
+            </div>
+            <div>
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" name="Phone" placeholder="Номер телефона">
+            </div>
+            <div>
+                <label for="mail">Email<span style="color:red;">*</span></label>
+                <input required type="email" id="mail" name="Email" placeholder="Email">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <div>
+                <label for="age">Возраст<span style="color:red;">*</span></label>
+                <input required type="text" id="age" name="Age" placeholder="Укажите ваш возраст">
+            </div>
+            <div>
+                <label for="sex">Пол</label>
+                <select name="Sex" id="sex">
+                    <option selected value="female">Женский</option>
+                    <option value="male">Мужской</option>
+                </select>
+            </div>
+            <div>
+                <label for="qual">Перечислите личные качества</label>
+            </div>
+            <div>
+                <textarea name="Qualities" id="qual" cols="30" rows="5"></textarea>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <div>
+                <table border="0" width=350>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="zebra" id="zebra">
+                                <label for="zebra">Зебра</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="cat" id="cat">
+                                <label for="cat">Кошка</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="anaconda" id="anaconda">
+                                <label for="anaconda">Анаконда</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="human" id="human">
+                                <label for="human">Человек</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="elefant" id="elefant">
+                                <label for="elefant">Слон</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="antelope" id="antelope">
+                                <label for="antelope">Антилопа</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="dove" id="dove">
+                                <label for="dove">Голубь</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="crab" id="crab">
+                                <label for="crab">Краб</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </fieldset>
+
+
+        <button type="submit">Отправить информацию</button>
+    </form>
+
+</body>
+
+</html>
