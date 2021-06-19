@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid blue;
+  padding: 15px;
+  line-height: 1.3em;
+  margin: 10px 15px;
+}
+.container p {
+  display: inline;
+  background-color: lightgoldenrodyellow;
+  
+}
+.container>section>button {
+    background-color: rgb(201, 70, 18);
+    color: whitesmoke;
+    padding: 3px;
+    border-color: lightgray;
+}
+.container>button {
+    background-color: #fff;
+    color: blue;
+    padding: 2px 5px;
+    margin-top: 10px;
+    border-color: lightgray;
+    
+}
+.alignright {
+  text-align: right;
+}
+.alignleft {
+  text-align: left;
+}
+.headfoot {
+  background-color: rgb(183, 208, 240);
+  height: 50px;
+  padding: 10px;
+}
+.headfoot button {
+  background-color: rgb(98, 98, 167);
+  color: rgb(240, 232, 232);
+  border-color: lightgray;
+  padding: 10px;
+}
