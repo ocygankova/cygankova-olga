@@ -12,19 +12,21 @@
 }
 .container p {
   display: inline;
-  background-color: lightgoldenrodyellow;
 }
-.container > section > button {
+.paragraph {
+  background-color: lightgoldenrodyellow;
+  margin: 6px 6px 10px 6px;
+}
+.paragraph button {
   background-color: rgb(201, 70, 18);
   color: whitesmoke;
-  padding: 3px;
+  padding: 1px 3px;
   border-color: lightgray;
 }
 .container > button {
   background-color: #fff;
   color: blue;
   padding: 2px 5px;
-  margin-top: 10px;
   border-color: lightgray;
 }
 .alignright {
@@ -35,7 +37,7 @@
 }
 .headfoot {
   background-color: rgb(183, 208, 240);
-  height: 50px;
+  height: 60px;
   padding: 10px;
 }
 .headfoot button {
