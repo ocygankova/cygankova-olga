@@ -23,12 +23,12 @@
   font-weight: bold;
   text-align: justify;
 }
-.listNumber > .listItem > span {
-  color: black;
-  font-weight: normal;
-}
 .listItem {
   padding: 10px 0;
+}
+.listItem span {
+  color: black;
+  font-weight: normal;
 }
 .fl {
   float: left;
@@ -40,6 +40,16 @@
   width: 24.5%;
   border: 1px solid black;
   margin: 2px;
+}
+.clientLogo img {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
 }
 #mainHeader {
   background-color: green;
@@ -60,6 +70,9 @@
   text-align: center;
   padding-bottom: 15px;
 }
+#contacts a {
+  color: rgb(181, 193, 247);
+}
 #aboutUs p {
   padding-bottom: 10px;
   text-align: justify;
@@ -69,18 +82,11 @@
   color: white;
   padding-bottom: 20px;
 }
-.clearfix::after {
-  display: block;
-  clear: both;
-  content: "";
-}
+
 #mainFooter {
-    background-color: brown;
-    color: white;
-    text-align: center;
-    font-size: small;
-    padding: 200px 0 5px 0;
-}
-.clientLogo img {
-    width: 100%;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  font-size: small;
+  padding: 200px 0 5px 0;
 }
