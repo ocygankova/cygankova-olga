@@ -14,6 +14,7 @@ body {
   width: 95%;
   margin: auto;
   text-align: center;
+  background-size: cover;
 }
 .header {
   margin: 311px 0 76px;
@@ -68,4 +69,12 @@ input {
   background-image: url(../img/calendar.png);
   background-repeat: no-repeat;
   background-position: 284px;
+}
+.unstyled {
+  -webkit-appearance: none;
+}
+.unstyled::-webkit-inner-spin-button,
+.unstyled::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
 }
