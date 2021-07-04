@@ -54,6 +54,18 @@ body {
   position: absolute;
   right: 5px;
 }
+@media (max-width: 540px) {
+  .search,
+  .cart {
+  display: block;
+  }
+}
+@media (max-width: 465px) {
+  .search,
+  .cart {
+    top: 0;
+  }
+}
 .nav2 {
   display: inline-block;
   margin-bottom: 20px;
@@ -82,12 +94,23 @@ body {
   width: 50%;
   display: inline-block;
 }
+@media (max-width: 1024px) {
+  .left {
+    margin-bottom: 25px;
+  }
+}
 .right {
   font-size: 1rem;
   /* width: 818px; */
   width: 50%;
   display: inline-block;
   vertical-align: top;
+}
+@media (max-width: 1024px) {
+  .left,
+  .right {
+    width: 100%;
+  }
 }
 .mainImg {
   margin-bottom: 38px;
@@ -134,8 +157,13 @@ body {
   font-family: "Poppins Bold";
   margin-bottom: 25px;
 }
-.block {
+h1 span {
   display: block;
+}
+@media (max-width: 1024px) {
+  h1 span {
+    display: inline;
+  }
 }
 .greyText {
   font-size: 14px;
@@ -388,7 +416,11 @@ h3 {
   right: 0;
   line-height: 32px;
 }
-
+@media (max-width: 1024px) {
+  .footTop p {
+    display: block;
+  }
+}
 .lineFoot {
   margin: 29px 0 45px;
   height: 1px;
