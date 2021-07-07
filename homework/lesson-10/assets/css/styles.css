@@ -252,12 +252,16 @@ h1 span {
 .wl {
   margin-top: 40px;
 }
+.wl button::before {
+  content: url(../img/heart-ico.png);
+  margin-right: 10px;
+}
 .wl button {
   background-color: transparent;
   color: black;
-  background-image: url(../img/heart-ico.png);
+  /* background-image: url(../img/heart-ico.png);
   background-repeat: no-repeat;
-  background-position: 38% 50%;
+  background-position: 38% 50%; */
 }
 .others {
   text-align: center;
