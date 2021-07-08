@@ -37,11 +37,8 @@ header {
   font-family: "Montserrat Regular";
   position: relative;
 }
-/* .nav1-item a:first-child {
-  position: relative;
-} */
-/* .nav1-item a:first-child::after { */
-.nav1-item a:focus::after {
+
+.nav1-item a::after {
   content: "";
   width: 65%;
   height: 1px;
@@ -49,6 +46,11 @@ header {
   position: absolute;
   left: 0;
   bottom: -5px;
+  display: none
+}
+
+.active a::after{
+  display: block;
 }
 .search {
   display: inline-block;
@@ -102,10 +104,11 @@ header {
 }
 @media (max-width: 1024px) {
   .left {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
   }
 }
 .right {
+  margin-top: -12px;
   font-size: 1rem;
   /* width: 818px; */
   width: 50%;
