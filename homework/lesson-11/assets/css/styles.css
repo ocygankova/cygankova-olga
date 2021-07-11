@@ -7,8 +7,8 @@
 }
 body {
   max-width: 1920px;
-  font-family: "Arial";
   margin: auto;
+  font-family: "arial_mtregular";
 }
 img {
   max-width: 100%;
@@ -257,7 +257,7 @@ img {
   width: 170px;
   height: 124px;
   text-align: center;
-  margin: 40px;
+  margin: 20px 40px;
   border: transparent 1px solid;
 }
 .help-gallery-item a {
@@ -274,8 +274,114 @@ img {
   margin: 0 30px;
   padding-bottom: 28px;
 }
-
 /* Help Our Shelter */
+
+/* Donations */
+
+.donation-bg {
+  background-color: #f6f6f6;
+}
+.donation {
+  padding: 71px 0 84px;
+}
+.donation-img {
+  width: 50%;
+  padding: 15px 63px 0 0;
+}
+.donation-description {
+  width: 50%;
+  text-align: left;
+}
+.donation-account {
+  margin-top: 24px;
+}
+.donation-account p {
+  color: #545454;
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.9px;
+}
+.donation-account-number {
+  width: 319px;
+  height: 47px;
+  border-radius: 9px;
+  background-color: #f1cdb3;
+  margin: 13px 0 30px;
+}
+.donation-account-number img {
+  padding-top: 11px;
+  padding-left: 14px;
+}
+.donation-account-number a {
+  text-decoration: none;
+  color: #292929;
+  font-family: "Times New Roman PSMT";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: right;
+  letter-spacing: 1.2px;
+  padding: 16px 10px;
+}
+.donation-account-legal {
+  color: #b2b2b2;
+  font-family: "arialmtitalic";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: right;
+  max-width: 351px;
+}
+/* Donations */
+
+/* Footer */
+.footer-bg {
+height: 338px;
+  background: url(../img/footer-bg.jpg) 60% no-repeat;
+}
+.footer {
+padding-top: 73px;
+}
+.footer h3 {
+  color: #ffffff;
+}
+.footer a {
+  text-decoration: none;
+color: #f1cdb3;
+font-family: "Times New Roman PSMT";
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 1.2px;
+}
+.location-1 span {
+  display: block;
+  margin: -15px 0 0 50px;
+}
+.footer-left {
+  margin-right: 174px;
+}
+.email {
+  margin: 40px 0 34px;
+}
+.tel a:first-child,
+.email a:first-child {
+  padding-right: 22px;
+}
+.location-1 {
+  margin: 34px 0 23px;
+  
+}
+.location-1 a:first-child,
+.location-2 a:first-child {
+  padding-right: 20px;
+}
+
+
+/* Footer */
+
+
 
 /* CATEGORIES */
 /* Categories Header*/
@@ -295,7 +401,7 @@ img {
 .categories-main {
   max-width: 1200px;
   margin: auto;
-  padding-top: 68px;
+  padding: 68px 0 64px;
   text-align: center;
 }
 .categories-h {
@@ -391,3 +497,9 @@ img {
   margin: 1px;
 }
 /* CATEGORIES */
+
+/* Fonts:
+font-family: 'ARIALMT';
+font-family: 'arialmtitalic';
+
+*/
