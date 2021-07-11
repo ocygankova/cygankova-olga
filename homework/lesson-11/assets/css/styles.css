@@ -8,7 +8,7 @@
 body {
   max-width: 1920px;
   margin: auto;
-  font-family: "arial_mtregular";
+  font-family: Arial, sans-serif;
 }
 img {
   max-width: 100%;
@@ -128,7 +128,6 @@ img {
 }
 .banner-block p {
   color: #cdcdcd;
-  font-family: "Arial MT";
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -179,7 +178,6 @@ img {
   color: #4c4c4c;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Arial MT";
   line-height: 24px;
   margin: 19px 0;
 }
@@ -295,7 +293,7 @@ img {
 .donation-account {
   margin-top: 24px;
 }
-.donation-account p {
+.donation-account-bank p {
   color: #545454;
   font-family: Georgia;
   font-size: 15px;
@@ -325,13 +323,14 @@ img {
   letter-spacing: 1.2px;
   padding: 16px 10px;
 }
-.donation-account-legal {
+.donation-account-legal p {
   color: #b2b2b2;
-  font-family: "arialmtitalic";
+  /* font-family: "Arial - Italic MT"; */
+  font-style: italic;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-  text-align: right;
+  text-align: left;
   max-width: 351px;
 }
 /* Donations */
