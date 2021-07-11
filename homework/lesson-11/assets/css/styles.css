@@ -217,7 +217,6 @@ img {
 .pets-slider-main .gallery-item {
   margin: 16px 25px;
 }
-
 .pets-button:hover {
   background-color: #fddcc4;
 }
@@ -234,7 +233,7 @@ img {
   font-family: Georgia;
   font-size: 17px;
   font-weight: 400;
-  line-height: 47px;
+  line-height: 57px;
   text-align: right;
   letter-spacing: 1.02px;
   padding: 15px 45px;
@@ -337,22 +336,22 @@ img {
 
 /* Footer */
 .footer-bg {
-height: 338px;
+  height: 338px;
   background: url(../img/footer-bg.jpg) 60% no-repeat;
 }
 .footer {
-padding-top: 73px;
+  padding-top: 73px;
 }
 .footer h3 {
   color: #ffffff;
 }
 .footer a {
   text-decoration: none;
-color: #f1cdb3;
-font-family: "Times New Roman PSMT";
-font-size: 20px;
-font-weight: 400;
-letter-spacing: 1.2px;
+  color: #f1cdb3;
+  font-family: "Times New Roman PSMT";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
 }
 .location-1 span {
   display: block;
@@ -370,17 +369,12 @@ letter-spacing: 1.2px;
 }
 .location-1 {
   margin: 34px 0 23px;
-  
 }
 .location-1 a:first-child,
 .location-2 a:first-child {
   padding-right: 20px;
 }
-
-
 /* Footer */
-
-
 
 /* CATEGORIES */
 /* Categories Header*/
