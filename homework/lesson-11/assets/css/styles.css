@@ -5,6 +5,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
 body {
   max-width: 1920px;
   margin: auto;
@@ -160,11 +161,31 @@ img {
 .about {
   margin: 89px auto;
 }
+
 .about-img {
   width: 50%;
   text-align: right;
   padding-right: 118px;
 }
+@media (max-width: 800px) {
+  .about-img {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-description.fr {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .about-description.fr > p {
+    max-width: 100%;
+  }
+}
+
 .about-description {
   padding-top: 20px;
   width: 50%;
@@ -297,7 +318,7 @@ img {
 }
 .donation-img {
   width: 50%;
-  padding: 15px 63px 0 0;
+  padding: 15px 63px 0 10px;
 }
 .donation-description {
   width: 50%;
@@ -306,7 +327,7 @@ img {
 .donation-account {
   margin-top: 24px;
 }
-.donation-account-bank p {
+.donation-account-bank {
   color: #545454;
   font-family: Georgia;
   font-size: 15px;
@@ -336,7 +357,7 @@ img {
   letter-spacing: 1.2px;
   padding: 16px 10px;
 }
-.donation-account-legal p {
+.donation-account-legal {
   color: #b2b2b2;
   /* font-family: "Arial - Italic MT"; */
   font-style: italic;
@@ -346,9 +367,44 @@ img {
   text-align: left;
   max-width: 351px;
 }
+
+@media (max-width: 800px) {
+  .donation-img {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .donation-description.fr {
+    width: 90%;
+    margin: auto;
+    float: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .donation-account-bank {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .donation-account-number {
+    margin: 13px auto 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .donation-account-legal {
+    max-width: 100%;
+    text-align: center;
+  }
+}
 /* Donations */
 
 /* Footer */
+
 .footer-bg {
   height: 338px;
   background: url(../img/footer-bg.jpg) 60% no-repeat;
@@ -388,6 +444,31 @@ img {
 .location-2 a:first-child {
   padding-right: 20px;
 }
+.footer-hidden {
+  display: none;
+}
+@media (max-width: 800px) {
+  .footer-left.fl,
+  .footer-right.fl {
+    float: none;
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .footer-h {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .footer-hidden {
+    display: block;
+  }
+}
+
 /* Footer */
 
 /* CATEGORIES */
