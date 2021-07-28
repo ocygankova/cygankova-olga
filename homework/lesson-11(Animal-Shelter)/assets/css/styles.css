@@ -141,9 +141,17 @@ img {
   height: 52px;
   border-radius: 26px;
   background-color: #f1cdb3;
+  box-shadow: 0px 5px 0px #6b5748;
+  position: relative;
+  top: 0;
 }
 .banner-block-button:hover {
   background-color: #fddcc4;
+  box-shadow: 0px 5px 0px #857163;
+}
+.banner-block-button:active {
+  top: 2px;
+  box-shadow: 0px 3px 0px #857163;
 }
 .banner-block-button a {
   text-decoration: none;
