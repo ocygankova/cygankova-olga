@@ -78,8 +78,9 @@ h6 {
   top: 50%;
   left: 50%;
   position: absolute;
-  -webkit-animation: opposite-rotation-middle 20s linear infinite;
-          animation: opposite-rotation-middle 20s linear infinite;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .star {
@@ -202,28 +203,6 @@ h6 {
   100% {
     -webkit-transform: rotate(-360deg);
             transform: rotate(-360deg);
-  }
-}
-
-@-webkit-keyframes opposite-rotation-middle {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-            transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(-360deg);
-            transform: translate(-50%, -50%) rotate(-360deg);
-  }
-}
-
-@keyframes opposite-rotation-middle {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-            transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(-360deg);
-            transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
 
