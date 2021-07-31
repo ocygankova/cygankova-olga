@@ -10,8 +10,20 @@ body {
   margin: 0 auto;
 }
 .features {
-  padding: 128px 0px;
   background-color: #f6f5f3;
+  &__wrapper {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 128px 0px;
+  }
+  &__img {
+    position: absolute;
+  }
+  &__body {
+    position: relative;
+    z-index: 1;
+  }
   &__title {
     text-transform: uppercase;
     text-align: center;
@@ -68,4 +80,17 @@ body {
       }
     }
   }
+}
+.pen-holder {
+  top: 0;
+  left: 6.7%;
+}
+.earphones {
+  top: 0;
+  right: 9.7%;
+  // z-index: -1;
+}
+.cup {
+  bottom: 0;
+  right: 3.47%;
 }

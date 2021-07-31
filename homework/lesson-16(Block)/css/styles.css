@@ -71,8 +71,23 @@ body {
 }
 
 .features {
-  padding: 128px 0px;
   background-color: #f6f5f3;
+}
+
+.features__wrapper {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 128px 0px;
+}
+
+.features__img {
+  position: absolute;
+}
+
+.features__body {
+  position: relative;
+  z-index: 1;
 }
 
 .features__title {
@@ -155,4 +170,19 @@ body {
 
 .features__text p:last-child {
   margin: 0;
+}
+
+.pen-holder {
+  top: 0;
+  left: 6.7%;
+}
+
+.earphones {
+  top: 0;
+  right: 9.7%;
+}
+
+.cup {
+  bottom: 0;
+  right: 3.47%;
 }
