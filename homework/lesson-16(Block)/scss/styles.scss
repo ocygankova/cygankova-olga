@@ -16,6 +16,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding: 128px 0px;
+    overflow: hidden;
+    @media (max-width: 540px) {
+      padding: 180px 0px 100px;
+    }
   }
   &__img {
     position: absolute;
@@ -40,13 +44,20 @@ body {
     color: #282828;
     letter-spacing: 1.6px;
     margin-bottom: 85px;
+    @media (max-height: 540px), (max-width: 360px) {
+      margin-bottom: 30px;
+      font-size: 30px;
+      line-height: 40px;
+    }
   }
   &__row {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 540px) {
+      flex-direction: column;
+    }
   }
   &__column {
-    // background-color: #ccc;
     flex: 0 0 31.666%;
     padding: 0px 8px 50px;
     display: flex;
@@ -84,11 +95,19 @@ body {
 .pen-holder {
   top: 0;
   left: 6.7%;
+  @media (max-width: 1024px) {
+    left: 0;
+  }
 }
 .earphones {
   top: 0;
   right: 9.7%;
-  // z-index: -1;
+  @media (max-width: 1024px) {
+    right: 0;
+  }
+  @media (max-width: 540px) {
+    z-index: -1;
+  }
 }
 .cup {
   bottom: 0;
