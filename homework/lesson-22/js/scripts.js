@@ -7,7 +7,7 @@ console.log('Площадь прямоугольника:' + ' ' + sR);
 const PI = 3.1415;
 let r = 10;
 let sC = PI * r ** 2;
-console.log('Площадь круга:' + ' ' + sC);
+console.log('Площадь круга:' + ' ' + sC.toFixed(2)); 
 
 let a = 55;
 let n = 3;
