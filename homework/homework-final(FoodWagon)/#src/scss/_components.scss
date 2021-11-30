@@ -1,0 +1,135 @@
+//========Hero Section======
+.order-card {
+  .order-card__button {
+    color: $gray-600;
+    &:hover {
+      color: $body-color;
+    }
+    &.active {
+      color: $warning;
+      background-color: rgba($warning, 0.1);
+    }
+  }
+}
+.hero-img {
+  animation: shake 1s ease-in-out 2 2s;
+}
+
+//========Discount==========
+.discount__card-badge {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  .badge {
+    border-radius: 0 2rem 0 1rem;
+  }
+}
+
+//=========How-Works=========
+.bg-primary-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba($primary, 0.1),
+    rgba($primary, 0)
+  );
+}
+.icon-shadow {
+  filter: drop-shadow(2px 7px 7px rgba($body-color, 0.2));
+}
+.icon-scale {
+  @media (max-width: 425px) {
+    transform: scale(0.5);
+  }
+  @media (max-width: 768px) {
+    transform: scale(0.7);
+  }
+}
+//=========== Sliders=====
+.popular-slider {
+  .swiper-slide {
+    max-width: 17.5rem;
+  }
+}
+.restaurants-slider {
+  .swiper-slide {
+    max-width: 20rem;
+  }
+}
+
+//============Restaurants=======
+.restaurants__card-logo {
+  width: 4rem;
+  height: 4rem;
+  flex: 1 0 auto;
+}
+.restaurants__card-text {
+  width: 100%;
+  flex: 1 1 auto;
+}
+
+//===========Install-App======
+.install-app {
+  &__card {
+    border-radius: 2.5rem;
+  }
+  &__app-store-img {
+    height: 2.75rem;
+
+    @media (min-width: 1400px) {
+      height: 3rem;
+    }
+  }
+}
+.text-gradient {
+  background-image: linear-gradient(45deg, $danger, $primary);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.install-app__bg-curve {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url(/img/install-app/Curve.svg) 50% 5rem / cover
+    no-repeat;
+  @media (max-width: 768px) {
+    background: url(/img/install-app/Curve.svg) 50% 6rem / cover
+      no-repeat;
+  }
+}
+
+//============Footer========
+.footer {
+  a {
+    color: $secondary;
+    &:hover {
+      color: $primary;
+    }
+  }
+  &__arrow-up {
+    bottom: 0;
+    right: 0;
+    animation: arrow 1.5s ease-in-out infinite;
+    &:hover {
+      animation-play-state: paused;
+    }
+    @keyframes arrow {
+      0% {
+        bottom: 0;
+      }
+      50% {
+        bottom: 10px;
+      }
+      100% {
+        bottom: 0;
+      }
+    }
+    span {
+      font-size: 2.5rem;
+    }
+  }
+}

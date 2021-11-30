@@ -1,0 +1,47 @@
+<section class="hero bg-primary bg-gradient pt-md-5 pb-2 pb-md-0 mt-5">
+    <div class="container">
+        <div class="row overflow-hidden">
+            <!-- Hero Text -->
+            <div class="col-md-7 ">
+                <h1 class="text-center text-md-start text-white fw-bold display-2 mt-5 text-nowrap">Are you starving?</h1>
+                <h1 class="text-center text-md-start fs-5 fs-sm-4 fs-md-2 text-black-65 fw-bold">Within a few clicks, find meals that <br class="d-none d-xl-block"> are accessible near you!</h1>
+                <!-- Hero Order Card -->
+                <div class="card order-card my-3 my-xl-5 rounded-5 shadow-1 shadow-md">
+                    <div class="card-body">
+
+                        <nav>
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active fw-bold order-card__button" id="pills-delivery-tab" data-bs-toggle="pill" data-bs-target="#pills-delivery" type="button" role="tab" aria-controls="pills-delivery" aria-selected="true"><span class="me-2 ">@@include('img/icons/delivery.svg')</span> Delivery</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link fw-bold order-card__button" id="pills-pickup-tab" data-bs-toggle="pill" data-bs-target="#pills-pickup" type="button" role="tab" aria-controls="pills-pickup" aria-selected="false"><span class="me-2">@@include('img/icons/pickup.svg')</span> Pickup</button>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="tab-content" id="pills-tabContent">
+
+                            <div class="tab-pane fade show active" id="pills-delivery" role="tabpanel" aria-labelledby="pills-delivery-tab">
+                                <form class="my-md-2 row gx-0 gy-2">
+                                    <div class="input-group col">
+                                        <label for="inputDelivery" class="input-group-text bg-secondary border-0 text-danger">@@include('img/icons/location.svg')</label>
+                                        <input class="form-control shadow-none bg-secondary border-0 me-md-2" id="inputDelivery" type="text" placeholder="Enter Your Address" aria-label="Enter Your Address">
+                                    </div>
+                                    <button class="btn fw-bold text-white ls-1 btn-danger text-nowrap shadow-1 col-md-auto" type="submit"><span class="me-2">@@include('img/icons/search.svg')</span>Find Food</button>
+                                </form>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-pickup" role="tabpanel" aria-labelledby="pills-pickup-tab"> Harum ab officiis delectus error quia veniam eaque libero iste eum autem</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Hero Img -->
+            <div class="hero-img col-md-5 mt-n4 mt-md-5 mb-lg-n5 ps-3 ">
+                <img class="img-fluid" src="img/header/hero-header-4.png" alt="Hero Image">
+            </div>
+        </div>
+    </div>
+</section>

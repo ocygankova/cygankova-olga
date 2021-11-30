@@ -1,0 +1,21 @@
+@import 'config';
+@import 'fonts';
+
+// //Bootstrap functions & vars
+@import '../libs/bootstrap/scss/functions';
+@import '../libs/bootstrap/scss/variables';
+@import '../libs/bootstrap/scss/utilities';
+
+// Custom Utilities
+@import 'bs-custom-utilities';
+
+//Bootstrap
+@import '../libs/bootstrap/scss/bootstrap.scss';
+//Swiper
+@import '../libs/swiper-bundle.min';
+
+//Styles & Components
+
+@import 'animation';
+@import 'components';
+@import 'to-top-arrow';
