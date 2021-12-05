@@ -28,11 +28,7 @@
 
 //=========How-Works=========
 .bg-primary-gradient {
-  background: linear-gradient(
-    180deg,
-    rgba($primary, 0.1),
-    rgba($primary, 0)
-  );
+  background: linear-gradient(180deg, rgba($primary, 0.1), rgba($primary, 0));
 }
 .icon-shadow {
   filter: drop-shadow(2px 7px 7px rgba($body-color, 0.2));
@@ -94,11 +90,9 @@
   top: 0;
   left: 0;
   z-index: -1;
-  background: url(/img/install-app/Curve.svg) 50% 5rem / cover
-    no-repeat;
+  background: url('../img/install-app/Curve.svg') 50% 5rem / cover no-repeat;
   @media (max-width: 768px) {
-    background: url(/img/install-app/Curve.svg) 50% 6rem / cover
-      no-repeat;
+    background: url('../img/install-app/Curve.svg') 50% 6rem / cover no-repeat;
   }
 }
 

@@ -14225,11 +14225,11 @@ button.swiper-pagination-bullet {
   top: 0;
   left: 0;
   z-index: -1;
-  background: url(/img/install-app/Curve.svg) 50% 5rem/cover no-repeat;
+  background: url("../img/install-app/Curve.svg") 50% 5rem/cover no-repeat;
 }
 @media (max-width: 768px) {
   .install-app__bg-curve {
-    background: url(/img/install-app/Curve.svg) 50% 6rem/cover no-repeat;
+    background: url("../img/install-app/Curve.svg") 50% 6rem/cover no-repeat;
   }
 }
 
